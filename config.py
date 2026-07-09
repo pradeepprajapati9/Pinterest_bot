@@ -18,6 +18,9 @@ AMAZON_ASSOC_TAG = os.getenv("AMAZON_ASSOC_TAG", "").strip()
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "").strip()
 DO_POST = os.getenv("DO_POST", "false").lower() == "true"
 
-# Pinterest: board to pin into + API v5 access token (scopes: pins:write, boards:read)
+# Pinterest API v5 (only works if your app gets trial/standard access approved).
 PINTEREST_TOKEN = os.getenv("PINTEREST_TOKEN", "").strip()
 PINTEREST_BOARD_ID = os.getenv("PINTEREST_BOARD_ID", "").strip()
+
+# Board *name*, used by make_pins_csv.py (the no-API bulk-upload route).
+PINTEREST_BOARD_NAME = os.getenv("PINTEREST_BOARD_NAME", "").strip()

@@ -35,20 +35,22 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           DO_POST: "true"
         run: python main.py
-      - name: Pin a deal to Pinterest
+      # Pinterest denied API access to this app, so we can't publish pins directly.
+      # Instead build the CSV their no-approval "Bulk create Pins" tool accepts,
+      # and commit it — download pins.csv from the repo and upload it now and then.
+      - name: Build Pinterest bulk-upload CSV
+        continue-on-error: true
         env:
-          PINTEREST_TOKEN: ${{ secrets.PINTEREST_TOKEN }}
-          PINTEREST_BOARD_ID: ${{ secrets.PINTEREST_BOARD_ID }}
+          PINTEREST_BOARD_NAME: ${{ secrets.PINTEREST_BOARD_NAME }}
           AMAZON_ASSOC_TAG: ${{ secrets.AMAZON_ASSOC_TAG }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          DO_POST: "true"
-        run: python pin_deal.py
-      - name: Persist posted/pinned flags
+        run: python make_pins_csv.py --limit 10
+      - name: Persist deal state + pins.csv
         if: always()
         run: |
           git config user.name "deal-bot"
           git config user.email "bot@users.noreply.github.com"
           git pull --rebase --autostash origin main || true
-          git add deals.json || true
-          git commit -m "chore: mark posted/pinned deal [skip ci]" || echo "no change"
+          git add deals.json pins.csv || true
+          git commit -m "chore: update deals + pins.csv [skip ci]" || echo "no change"
           git push || echo "nothing to push"
