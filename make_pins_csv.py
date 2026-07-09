@@ -5,16 +5,19 @@ returns 401 "application consumer type is not supported"), so pin_deal.py can't
 publish. Pinterest's own bulk upload needs no API approval and no ban risk.
 
 Flow:
-  python fetch_deals.py      # pull fresh trending products (auto)
-  python make_pins_csv.py    # writes pins.csv           (auto)
-  -> upload pins.csv once at Pinterest > Create > Bulk create Pins   (10 seconds)
+  python fetch_deals.py      # pull fresh trending products (auto, daily)
+  python make_pins_csv.py    # APPENDS new pins to pins.csv (auto, daily)
+  -> whenever you like (weekly is fine), upload pins.csv at
+     Pinterest > Create > Bulk create Pins, then run --clear
 
-Each product is written once; already-exported ones are skipped on the next run.
+Rows accumulate so you never have to upload daily. Each product is exported
+once. Pinterest accepts up to 200 rows per upload, so we stop there.
 
 Usage:
-  python make_pins_csv.py             # up to 10 new pins -> pins.csv
+  python make_pins_csv.py             # add up to 10 new pins to pins.csv
   python make_pins_csv.py --limit 25  # bigger batch
   python make_pins_csv.py --dry       # show rows, write nothing
+  python make_pins_csv.py --clear     # after uploading: empty pins.csv
 """
 import sys
 import csv
@@ -29,6 +32,7 @@ COLUMNS = ["Title", "Media URL", "Pinterest board", "Thumbnail",
            "Description", "Link", "Publish date", "Keywords"]
 
 DEFAULT_LIMIT = 10
+MAX_ROWS = 200            # Pinterest's per-upload cap
 CSV_FILE = config.BASE_DIR / "pins.csv"
 
 
@@ -46,18 +50,37 @@ def _keywords(description: str) -> str:
     return ", ".join(tags[:5])
 
 
+def _existing_rows() -> list:
+    if not CSV_FILE.exists():
+        return []
+    with open(CSV_FILE, newline="", encoding="utf-8") as f:
+        return list(csv.DictReader(f))
+
+
 def main():
     dry = "--dry" in sys.argv
     limit = int(_arg("--limit", DEFAULT_LIMIT))
+
+    if "--clear" in sys.argv:
+        CSV_FILE.unlink(missing_ok=True)
+        print("pins.csv cleared. New pins will start collecting again.")
+        return
 
     board = config.PINTEREST_BOARD_NAME
     if not board:
         print("Set PINTEREST_BOARD_NAME in .env (the exact board name on Pinterest).")
         return
 
+    existing = _existing_rows()
+    room = MAX_ROWS - len(existing)
+    if room <= 0:
+        print(f"pins.csv already holds {len(existing)} pins (Pinterest's cap). "
+              f"Upload it, then run: python make_pins_csv.py --clear")
+        return
+
     data = json.loads(config.DEALS_FILE.read_text("utf-8"))
     deals = data.get("deals", [])
-    todo = [d for d in deals if d.get("image") and not d.get("exported")][:limit]
+    todo = [d for d in deals if d.get("image") and not d.get("exported")][:min(limit, room)]
 
     if not todo:
         print("No new products to export. Run fetch_deals.py first.")
@@ -82,17 +105,19 @@ def main():
         print(f"\n(--dry) {len(rows)} row(s) ready, nothing written.")
         return
 
+    # Append, so pins pile up between uploads and you never have to do this daily.
     with open(CSV_FILE, "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=COLUMNS)
         w.writeheader()
-        w.writerows(rows)
+        w.writerows(existing + rows)
 
     for d in todo:
         d["exported"] = True
     config.DEALS_FILE.write_text(json.dumps(data, ensure_ascii=False, indent=2), "utf-8")
 
-    print(f"\nWrote {len(rows)} pin(s) -> {CSV_FILE}")
-    print("Upload it at: Pinterest > Create > Bulk create Pins")
+    total = len(existing) + len(rows)
+    print(f"\nAdded {len(rows)} pin(s). pins.csv now holds {total}/{MAX_ROWS}.")
+    print("Upload at Pinterest > Create > Bulk create Pins, then: python make_pins_csv.py --clear")
 
 
 if __name__ == "__main__":
