@@ -1,4 +1,4 @@
-name: Telegram Deal Bot
+name: Deal Bot (Telegram + Pinterest)
 
 on:
   schedule:
@@ -35,12 +35,20 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           DO_POST: "true"
         run: python main.py
-      - name: Persist posted flags
+      - name: Pin a deal to Pinterest
+        env:
+          PINTEREST_TOKEN: ${{ secrets.PINTEREST_TOKEN }}
+          PINTEREST_BOARD_ID: ${{ secrets.PINTEREST_BOARD_ID }}
+          AMAZON_ASSOC_TAG: ${{ secrets.AMAZON_ASSOC_TAG }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          DO_POST: "true"
+        run: python pin_deal.py
+      - name: Persist posted/pinned flags
         if: always()
         run: |
           git config user.name "deal-bot"
           git config user.email "bot@users.noreply.github.com"
           git pull --rebase --autostash origin main || true
           git add deals.json || true
-          git commit -m "chore: mark posted deal [skip ci]" || echo "no change"
+          git commit -m "chore: mark posted/pinned deal [skip ci]" || echo "no change"
           git push || echo "nothing to push"

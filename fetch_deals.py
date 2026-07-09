@@ -41,8 +41,8 @@ SOURCES = [
     "https://www.amazon.in/gp/bestsellers/sports/",
 ]
 
-# Each bestseller item: <div id="ASIN" ...> ... <img alt="Product Title">
-ITEM_RE = re.compile(r'id="([A-Z0-9]{10})"[\s\S]{0,800}?alt="([^"]+)"')
+# Each bestseller item: <div id="ASIN" ...> ... <img alt="Product Title" src="...jpg">
+ITEM_RE = re.compile(r'id="([A-Z0-9]{10})"[\s\S]{0,800}?alt="([^"]+)"\s+src="([^"]+)"')
 MAX_PER_SOURCE = 3     # top few trending items per category
 MAX_NEW = 12           # cap fresh products added per run
 MAX_DEALS = 40         # keep deals.json from growing forever
@@ -57,8 +57,13 @@ def _clean_title(raw: str) -> str:
     return t.strip()[:80]
 
 
+def _big_image(url: str) -> str:
+    """Listing thumbs are ~300px; Pinterest wants a large image. Ask for 1000px."""
+    return re.sub(r"\._[A-Z0-9_,]+_\.jpg", "._AC_UL1000_.jpg", html.unescape(url))
+
+
 def fetch_items(url: str) -> list:
-    """Return [(asin, title), ...] parsed straight from one listing page."""
+    """Return [(asin, title, image), ...] parsed straight from one listing page."""
     try:
         r = requests.get(url, headers=UA, timeout=25)
         if r.status_code != 200:
@@ -68,14 +73,14 @@ def fetch_items(url: str) -> list:
             print(f"  ! {url} -> blocked (captcha)")
             return []
         seen, items = set(), []
-        for asin, raw_title in ITEM_RE.findall(r.text):
+        for asin, raw_title, raw_img in ITEM_RE.findall(r.text):
             if asin in seen:
                 continue
             title = _clean_title(raw_title)
             bad = ("robot", "captcha", "sorry")
             if len(title) > 5 and not any(b in title.lower() for b in bad):
                 seen.add(asin)
-                items.append((asin, title))
+                items.append((asin, title, _big_image(raw_img)))
             if len(items) >= MAX_PER_SOURCE:
                 break
         return items
@@ -85,21 +90,23 @@ def fetch_items(url: str) -> list:
 
 
 def collect_live_deals() -> list:
-    """Return a list of {title, url, posted:False} for trending products."""
+    """Return a list of {title, url, image, posted:False} for trending products."""
     seen = set()
     found = []
     for src in SOURCES:
         if len(found) >= MAX_NEW:
             break
         print(f"  scanning {src}")
-        for asin, title in fetch_items(src):
+        for asin, title, image in fetch_items(src):
             if asin in seen or len(found) >= MAX_NEW:
                 continue
             seen.add(asin)
             found.append({
                 "title": title,
                 "url": f"https://www.amazon.in/dp/{asin}",
+                "image": image,
                 "posted": False,
+                "pinned": False,
             })
             print(f"    + {title}")
         time.sleep(1)   # be polite / reduce block risk

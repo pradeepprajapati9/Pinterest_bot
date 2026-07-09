@@ -1,4 +1,4 @@
-"""Config for the Telegram deal/affiliate bot. Reads .env with safe defaults."""
+"""Config for the deal/affiliate bot (Telegram + Pinterest). Reads .env with safe defaults."""
 import os
 from pathlib import Path
 
@@ -17,3 +17,7 @@ TELEGRAM_CHANNEL = os.getenv("TELEGRAM_CHANNEL", "").strip()
 AMAZON_ASSOC_TAG = os.getenv("AMAZON_ASSOC_TAG", "").strip()
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "").strip()
 DO_POST = os.getenv("DO_POST", "false").lower() == "true"
+
+# Pinterest: board to pin into + API v5 access token (scopes: pins:write, boards:read)
+PINTEREST_TOKEN = os.getenv("PINTEREST_TOKEN", "").strip()
+PINTEREST_BOARD_ID = os.getenv("PINTEREST_BOARD_ID", "").strip()

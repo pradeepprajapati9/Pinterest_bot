@@ -1,4 +1,8 @@
-"""Write a catchy Telegram deal caption with Gemini (free), with a safe fallback."""
+"""Write deal copy with Gemini (free), with safe fallbacks.
+
+make_caption()  -> chatty Hindi+English caption for the Telegram channel
+make_pin_text() -> keyword-rich title + description for Pinterest (a search engine)
+"""
 import time
 import requests
 import config
@@ -38,3 +42,28 @@ def make_caption(title: str) -> str:
     if not text:
         text = f"🔥 {title} — aaj ka best deal!\nLimited time offer. Abhi grab karo 👇"
     return text
+
+
+def make_pin_text(title: str) -> tuple:
+    """Return (pin_title, description) tuned for Pinterest search, not for hype.
+
+    People find pins by searching ('best wireless earbuds under 2000'), so the copy
+    must read like a real search phrase, in English. Pinterest caps title at 100
+    chars and description at 500.
+    """
+    prompt = (
+        f"For this product: '{title}'\n"
+        f"Write Pinterest pin copy in English that ranks in Pinterest search.\n"
+        f"Line 1: a searchable pin title, max 90 characters, no emojis, no price.\n"
+        f"Line 2: a 2-3 sentence description (max 350 chars) using natural shopping "
+        f"keywords buyers type, ending with 3-5 relevant hashtags.\n"
+        f"Do NOT invent a price or discount percentage. Output exactly 2 lines, "
+        f"plain text, no labels, no markdown."
+    )
+    text = _gemini(prompt)
+    lines = [l.strip() for l in text.splitlines() if l.strip()] if text else []
+    if len(lines) >= 2:
+        return lines[0][:100], lines[1][:500]
+    short = title[:90]
+    return short, (f"{title}. Check the latest price and offers on Amazon India. "
+                   f"#amazonfinds #dealsindia #onlineshopping")
