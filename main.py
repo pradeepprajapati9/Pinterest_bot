@@ -66,6 +66,9 @@ def run():
         log("Done.")
     else:
         log("Post failed (will retry this deal next run).")
+        # exit non-zero so a scheduled run shows as FAILED (and emails you)
+        # instead of a misleading green "success" when nothing was posted.
+        raise SystemExit("post failed")
 
 
 if __name__ == "__main__":

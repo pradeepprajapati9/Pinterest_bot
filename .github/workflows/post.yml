@@ -24,6 +24,9 @@ jobs:
           python-version: "3.12"
           cache: "pip"
       - run: pip install -r requirements.txt
+      - name: Refresh live deals
+        continue-on-error: true   # if Amazon blocks the runner, just post existing deals
+        run: python fetch_deals.py
       - name: Post a deal
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
