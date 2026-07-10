@@ -118,16 +118,26 @@ def main():
 
     data = json.loads(config.DEALS_FILE.read_text("utf-8"))
     deals = data.get("deals", [])
-    existing_urls = {d["url"] for d in deals}
+    by_url = {d["url"]: d for d in deals}
 
-    fresh = [d for d in collect_live_deals() if d["url"] not in existing_urls]
+    live = collect_live_deals()
+    fresh = [d for d in live if d["url"] not in by_url]
 
-    if not fresh:
+    # Products saved before this script captured images would otherwise never get
+    # one (dedup skips them), and a deal with no image can't be pinned. Backfill.
+    backfilled = 0
+    for d in live:
+        old = by_url.get(d["url"])
+        if old is not None and not old.get("image"):
+            old["image"] = d["image"]
+            backfilled += 1
+
+    if not fresh and not backfilled:
         print("\nNo fresh live deals fetched (likely blocked). "
               "Keeping existing deals.json unchanged.")
         return
 
-    print(f"\nFetched {len(fresh)} new live deal(s).")
+    print(f"\nFetched {len(fresh)} new live deal(s), backfilled {backfilled} image(s).")
 
     if dry:
         print("(--dry) Not writing. Would add:")
