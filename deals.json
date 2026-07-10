@@ -1,6 +1,30 @@
 {
   "deals": [
     {
+      "title": "Slovic Pull up Bar for Home for Kids & Adults [100 KG] | Pull up Bar Wall Mounte",
+      "url": "https://www.amazon.in/dp/B0B6NSDR2H",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/71+J9cM+N-L._AC_UL1000_.jpg",
+      "posted": true,
+      "pinned": false,
+      "exported": true
+    },
+    {
+      "title": "Lifelong PVC Hex Dumbbells Pack of 2 (5kg*2) Black Color for Home Gym Equipment ",
+      "url": "https://www.amazon.in/dp/B09W5PSTBP",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/710SxepIfiL._AC_UL1000_.jpg",
+      "posted": false,
+      "pinned": false,
+      "exported": true
+    },
+    {
+      "title": "Lifelong Pull Up Bar for Home Kids| Adjustable 62–100 cm Doorway PullUp Bar For ",
+      "url": "https://www.amazon.in/dp/B0GWN14N9F",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/61wiwhVcZJL._AC_UL1000_.jpg",
+      "posted": false,
+      "pinned": false,
+      "exported": true
+    },
+    {
       "title": "OnePlus N6 | 6GB+128GB | Fresh Mint | Segment's Biggest 8000mAh Battery | Segmen",
       "url": "https://www.amazon.in/dp/B0H3LGB59B",
       "image": "https://images-eu.ssl-images-amazon.com/images/I/61d03Bx0AjL._AC_UL1000_.jpg",
@@ -109,13 +133,15 @@
       "title": "Simple Kind To Skin Refreshing Facial Wash 150 ml | 100% Soap-Free Facewash that",
       "url": "https://www.amazon.in/dp/B000LQUA6M",
       "posted": false,
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/51wqZYWGr+L._AC_UL1000_.jpg"
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/51wqZYWGr+L._AC_UL1000_.jpg",
+      "exported": true
     },
     {
       "title": "Cetaphil Gentle Skin Hydrating Face Wash 118ml, Paraben Free, Sulphate-Free Gent",
       "url": "https://www.amazon.in/dp/B01CCGW4OE",
       "posted": false,
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/61Ti2uv6V3L._AC_UL1000_.jpg"
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/61Ti2uv6V3L._AC_UL1000_.jpg",
+      "exported": true
     },
     {
       "title": "DOCTOR EXTRA SOFT Care Diabetic Orthopedic Pregnancy Flat Super Comfort Dr Flipf",
