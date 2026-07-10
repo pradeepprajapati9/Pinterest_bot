@@ -1,6 +1,30 @@
 {
   "deals": [
     {
+      "title": "OnePlus N6 | 6GB+128GB | Fresh Mint | Segment's Biggest 8000mAh Battery | Segmen",
+      "url": "https://www.amazon.in/dp/B0H3LGB59B",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/61d03Bx0AjL._AC_UL1000_.jpg",
+      "posted": true,
+      "pinned": false,
+      "exported": true
+    },
+    {
+      "title": "Portronics Conch Theta C in Ear Type C Wired Earphones with in Line HD Mic, Powe",
+      "url": "https://www.amazon.in/dp/B0DDHM6D3L",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/51GGwjwSr0L._AC_UL1000_.jpg",
+      "posted": false,
+      "pinned": false,
+      "exported": true
+    },
+    {
+      "title": "ZEBRONICS Blanc Slim Wireless Mouse with Rechargeable Battery, BT + 2.4GHz, 4 Bu",
+      "url": "https://www.amazon.in/dp/B0CQRNWJM2",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/51vMo-pHZ5L._AC_UL1000_.jpg",
+      "posted": false,
+      "pinned": false,
+      "exported": true
+    },
+    {
       "title": "Red Tape Men Pull On Clogs",
       "url": "https://www.amazon.in/dp/B0CSWN4TCK",
       "image": "https://images-eu.ssl-images-amazon.com/images/I/61RMzIzWHEL._AC_UL1000_.jpg",
@@ -36,43 +60,50 @@
       "title": "OnePlus N6 | 6GB+128GB | Midnight Green | Segment's Biggest 8000mAh Battery | Se",
       "url": "https://www.amazon.in/dp/B0H3LKPC2K",
       "posted": true,
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/61f5ZCuSD6L._AC_UL1000_.jpg"
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/61f5ZCuSD6L._AC_UL1000_.jpg",
+      "exported": true
     },
     {
       "title": "OnePlus Nord Buds 3r TWS Earbuds up to 54 Hours Playback, 2-mic Clear Calls, 3D ",
       "url": "https://www.amazon.in/dp/B0FMDL81GS",
       "posted": true,
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/51nBTTG3hNL._AC_UL1000_.jpg"
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/51nBTTG3hNL._AC_UL1000_.jpg",
+      "exported": true
     },
     {
       "title": "Samsung Galaxy S25 Ultra 5G AI Smartphone (Titanium Silverblue, 12GB RAM, 256GB ",
       "url": "https://www.amazon.in/dp/B0DSKNKCYX",
       "posted": false,
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/71tl8pu4fKL._AC_UL1000_.jpg"
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/71tl8pu4fKL._AC_UL1000_.jpg",
+      "exported": true
     },
     {
       "title": "LPG cylinder booking",
       "url": "https://www.amazon.in/dp/B07QP9PTZP",
       "posted": false,
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/415aawinNhL._AC_UL1000_.jpg"
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/415aawinNhL._AC_UL1000_.jpg",
+      "exported": true
     },
     {
       "title": "Amazon Brand - Presto! Garbage Bags | Medium | 180 Count | 30 Bags X 6 Rolls | 1",
       "url": "https://www.amazon.in/dp/B0821PN8L4",
       "posted": false,
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/61fn1xtHO4L._AC_UL1000_.jpg"
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/61fn1xtHO4L._AC_UL1000_.jpg",
+      "exported": true
     },
     {
       "title": "LiMETRO STEEL Stainless Steel Foldable Cloth Dryer Stand Double Rack Cloth Stand",
       "url": "https://www.amazon.in/dp/B07PPBD529",
       "posted": false,
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/81zi4U9ZxgL._AC_UL1000_.jpg"
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/81zi4U9ZxgL._AC_UL1000_.jpg",
+      "exported": true
     },
     {
       "title": "Ghar Soaps Sandalwood & Saffron Magic Soaps For Bath (300 Gms Pack Of 3) | Parab",
       "url": "https://www.amazon.in/dp/B09S6M7JQJ",
       "posted": false,
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/718F+0RgtfL._AC_UL1000_.jpg"
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/718F+0RgtfL._AC_UL1000_.jpg",
+      "exported": true
     },
     {
       "title": "Simple Kind To Skin Refreshing Facial Wash 150 ml | 100% Soap-Free Facewash that",
