@@ -1,6 +1,14 @@
 {
   "deals": [
     {
+      "title": "Boldfit Pull Up Bar for Home Workout Without Screw - Adjustable Door Way Chin Up",
+      "url": "https://www.amazon.in/dp/B0DCJYS6KG",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/71WQF5nGb9L._AC_UL1000_.jpg",
+      "posted": true,
+      "pinned": false,
+      "exported": true
+    },
+    {
       "title": "REDMI A7 Pro 5G (Mist Blue, 4GB RAM, 64GB Storage) | Segment's Fastest Processor",
       "url": "https://www.amazon.in/dp/B0GS5Y7QBF",
       "image": "https://images-eu.ssl-images-amazon.com/images/I/71eQsL8sqcL._AC_UL1000_.jpg",
@@ -250,11 +258,6 @@
     {
       "title": "Fitness & Sports Gear",
       "url": "https://www.amazon.in/s?k=fitness+equipment",
-      "posted": false
-    },
-    {
-      "title": "Laptop & Computer Deals",
-      "url": "https://www.amazon.in/s?k=laptop",
       "posted": false
     }
   ]
