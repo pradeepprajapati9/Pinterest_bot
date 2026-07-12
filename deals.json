@@ -1,6 +1,22 @@
 {
   "deals": [
     {
+      "title": "Samsung Original 25W USB Type-C Travel Adaptor Without Cable for Google Pixel, X",
+      "url": "https://www.amazon.in/dp/B0D2R2MXXJ",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/512UVkoMMEL._AC_UL1000_.jpg",
+      "posted": true,
+      "pinned": false,
+      "exported": true
+    },
+    {
+      "title": "ATOM ALISTON K1 Series Digital Kitchen Weighing Scale 10 kg, Electronic Weight M",
+      "url": "https://www.amazon.in/dp/B083C6XMKQ",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/71775fRr+gL._AC_UL1000_.jpg",
+      "posted": false,
+      "pinned": false,
+      "exported": true
+    },
+    {
       "title": "Boldfit Pull Up Bar for Home Workout Without Screw - Adjustable Door Way Chin Up",
       "url": "https://www.amazon.in/dp/B0DCJYS6KG",
       "image": "https://images-eu.ssl-images-amazon.com/images/I/71WQF5nGb9L._AC_UL1000_.jpg",
@@ -248,16 +264,6 @@
     {
       "title": "Beauty & Skincare Deals",
       "url": "https://www.amazon.in/s?k=beauty+skincare",
-      "posted": false
-    },
-    {
-      "title": "Home & Decor Deals",
-      "url": "https://www.amazon.in/s?k=home+decor",
-      "posted": false
-    },
-    {
-      "title": "Fitness & Sports Gear",
-      "url": "https://www.amazon.in/s?k=fitness+equipment",
       "posted": false
     }
   ]
