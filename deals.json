@@ -1,6 +1,14 @@
 {
   "deals": [
     {
+      "title": "DOCTOR HEALTH SUPER SOFT Women’s Orthopedic Soft Platform Slippers | Ultra-Cushi",
+      "url": "https://www.amazon.in/dp/B0H74HSXGK",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/71HJPMhPOTL._AC_UL1000_.jpg",
+      "posted": true,
+      "pinned": false,
+      "exported": true
+    },
+    {
       "title": "Samsung Original 25W USB Type-C Travel Adaptor Without Cable for Google Pixel, X",
       "url": "https://www.amazon.in/dp/B0D2R2MXXJ",
       "image": "https://images-eu.ssl-images-amazon.com/images/I/512UVkoMMEL._AC_UL1000_.jpg",
@@ -194,12 +202,16 @@
     {
       "title": "DOCTOR EXTRA SOFT Care Diabetic Orthopedic Pregnancy Flat Super Comfort Dr Flipf",
       "url": "https://www.amazon.in/dp/B074CZZQ8V",
-      "posted": false
+      "posted": false,
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/61U3mvWM0XL._AC_UL1000_.jpg",
+      "exported": true
     },
     {
       "title": "Frido Cloud Comfort Slippers for Women & Men | Available in 2 Options- Arch Supp",
       "url": "https://www.amazon.in/dp/B0FR9GT4LM",
-      "posted": false
+      "posted": false,
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/71C+XPnk0GL._AC_UL1000_.jpg",
+      "exported": true
     },
     {
       "title": "Red Tape Men Pull On Clogs",
@@ -259,11 +271,6 @@
     {
       "title": "Top Men's Fashion Deals",
       "url": "https://www.amazon.in/s?k=men+fashion",
-      "posted": false
-    },
-    {
-      "title": "Beauty & Skincare Deals",
-      "url": "https://www.amazon.in/s?k=beauty+skincare",
       "posted": false
     }
   ]
