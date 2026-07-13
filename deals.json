@@ -1,6 +1,14 @@
 {
   "deals": [
     {
+      "title": "Scalpe Pro Daily Anti-Dandruff Shampoo | Removes Dandruff from Source | Prevents",
+      "url": "https://www.amazon.in/dp/B0BLM3Q44F",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/51CAf22M1SL._AC_UL1000_.jpg",
+      "posted": true,
+      "pinned": false,
+      "exported": true
+    },
+    {
       "title": "DOCTOR HEALTH SUPER SOFT Women’s Orthopedic Soft Platform Slippers | Ultra-Cushi",
       "url": "https://www.amazon.in/dp/B0H74HSXGK",
       "image": "https://images-eu.ssl-images-amazon.com/images/I/71HJPMhPOTL._AC_UL1000_.jpg",
@@ -266,11 +274,6 @@
     {
       "title": "Best Selling Books",
       "url": "https://www.amazon.in/s?k=bestseller+books",
-      "posted": false
-    },
-    {
-      "title": "Top Men's Fashion Deals",
-      "url": "https://www.amazon.in/s?k=men+fashion",
       "posted": false
     }
   ]
