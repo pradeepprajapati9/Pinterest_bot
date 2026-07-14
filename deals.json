@@ -1,6 +1,14 @@
 {
   "deals": [
     {
+      "title": "DOCTOR HEALTH SUPER SOFT Women’s Orthopedic Soft Platform Slippers | Ultra-Cushi",
+      "url": "https://www.amazon.in/dp/B0G5L5JKYX",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/61lHUI-Df2L._AC_UL1000_.jpg",
+      "posted": true,
+      "pinned": false,
+      "exported": true
+    },
+    {
       "title": "OnePlus Nord 6 | 8GB+256GB | Fresh Mint | Snapdragon 8s Gen 4 | Segment's First ",
       "url": "https://www.amazon.in/dp/B0GRBBPBGQ",
       "image": "https://images-eu.ssl-images-amazon.com/images/I/61F1NWYtCKL._AC_UL1000_.jpg",
@@ -275,11 +283,6 @@
     {
       "title": "Best Kitchen Appliances",
       "url": "https://www.amazon.in/s?k=kitchen+appliances",
-      "posted": false
-    },
-    {
-      "title": "Top Mobile Accessories",
-      "url": "https://www.amazon.in/s?k=mobile+accessories",
       "posted": false
     }
   ]
