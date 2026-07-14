@@ -1,6 +1,22 @@
 {
   "deals": [
     {
+      "title": "OnePlus Nord 6 | 8GB+256GB | Fresh Mint | Snapdragon 8s Gen 4 | Segment's First ",
+      "url": "https://www.amazon.in/dp/B0GRBBPBGQ",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/61F1NWYtCKL._AC_UL1000_.jpg",
+      "posted": true,
+      "pinned": false,
+      "exported": true
+    },
+    {
+      "title": "OnePlus Nord CE6 | 8GB+128GB | Pitch Black | Snapdragon 7s Gen 4 | Segment's Fas",
+      "url": "https://www.amazon.in/dp/B0GWLHVJRH",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/61Di24QT6GL._AC_UL1000_.jpg",
+      "posted": false,
+      "pinned": false,
+      "exported": true
+    },
+    {
       "title": "Scalpe Pro Daily Anti-Dandruff Shampoo | Removes Dandruff from Source | Prevents",
       "url": "https://www.amazon.in/dp/B0BLM3Q44F",
       "image": "https://images-eu.ssl-images-amazon.com/images/I/51CAf22M1SL._AC_UL1000_.jpg",
@@ -264,16 +280,6 @@
     {
       "title": "Top Mobile Accessories",
       "url": "https://www.amazon.in/s?k=mobile+accessories",
-      "posted": false
-    },
-    {
-      "title": "Trending Headphones",
-      "url": "https://www.amazon.in/s?k=headphones",
-      "posted": false
-    },
-    {
-      "title": "Best Selling Books",
-      "url": "https://www.amazon.in/s?k=bestseller+books",
       "posted": false
     }
   ]
