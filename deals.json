@@ -1,6 +1,22 @@
 {
   "deals": [
     {
+      "title": "Ambrane Unbreakable 60W Fast Charging 1.5M Braided Type C to Type C Cable for Sm",
+      "url": "https://www.amazon.in/dp/B082LSVT4B",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/71MhtZF5NWL._AC_UL1000_.jpg",
+      "posted": true,
+      "pinned": false,
+      "exported": true
+    },
+    {
+      "title": "Fresh Assorted Roses (Button Roses), 100g",
+      "url": "https://www.amazon.in/dp/B0FQ5JVLL8",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/61tZVx+LpKL._AC_UL1000_.jpg",
+      "posted": false,
+      "pinned": false,
+      "exported": true
+    },
+    {
       "title": "DOCTOR HEALTH SUPER SOFT Women’s Orthopedic Soft Platform Slippers | Ultra-Cushi",
       "url": "https://www.amazon.in/dp/B0G5L5JKYX",
       "image": "https://images-eu.ssl-images-amazon.com/images/I/61lHUI-Df2L._AC_UL1000_.jpg",
@@ -273,16 +289,6 @@
     {
       "title": "Top Bluetooth Speakers",
       "url": "https://www.amazon.in/s?k=bluetooth+speaker",
-      "posted": false
-    },
-    {
-      "title": "Men's Grooming & Trimmers",
-      "url": "https://www.amazon.in/s?k=trimmer+for+men",
-      "posted": false
-    },
-    {
-      "title": "Best Kitchen Appliances",
-      "url": "https://www.amazon.in/s?k=kitchen+appliances",
       "posted": false
     }
   ]
