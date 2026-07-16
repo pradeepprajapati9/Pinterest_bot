@@ -1,6 +1,22 @@
 {
   "deals": [
     {
+      "title": "DOCTOR EXTRA SOFT Care Diabetic Orthopedic Pregnancy Flat Super Comfort Dr Flipf",
+      "url": "https://www.amazon.in/dp/B09D8BQM7C",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/61U3mvWM0XL._AC_UL1000_.jpg",
+      "posted": true,
+      "pinned": false,
+      "exported": true
+    },
+    {
+      "title": "DOCTOR EXTRA SOFT Doctor Slippers for Women Orthopedic Diabetic Pregnancy Non Sl",
+      "url": "https://www.amazon.in/dp/B0BYTC95RD",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/61FYkcz1cYL._AC_UL1000_.jpg",
+      "posted": false,
+      "pinned": false,
+      "exported": true
+    },
+    {
       "title": "Ambrane Unbreakable 60W Fast Charging 1.5M Braided Type C to Type C Cable for Sm",
       "url": "https://www.amazon.in/dp/B082LSVT4B",
       "image": "https://images-eu.ssl-images-amazon.com/images/I/71MhtZF5NWL._AC_UL1000_.jpg",
@@ -279,16 +295,6 @@
     {
       "title": "Trending Smart Watches",
       "url": "https://www.amazon.in/s?k=smartwatch",
-      "posted": false
-    },
-    {
-      "title": "Best Power Banks",
-      "url": "https://www.amazon.in/s?k=power+bank",
-      "posted": false
-    },
-    {
-      "title": "Top Bluetooth Speakers",
-      "url": "https://www.amazon.in/s?k=bluetooth+speaker",
       "posted": false
     }
   ]
