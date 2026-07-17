@@ -1,6 +1,14 @@
 {
   "deals": [
     {
+      "title": "Simple Kind to Skin Refreshing Facial Wash | 100% Soap-Free Gentle Cleanser with",
+      "url": "https://www.amazon.in/dp/B0CKF48RRR",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/51FQerCM8yL._AC_UL1000_.jpg",
+      "posted": true,
+      "pinned": false,
+      "exported": true
+    },
+    {
       "title": "DOCTOR EXTRA SOFT Care Diabetic Orthopedic Pregnancy Flat Super Comfort Dr Flipf",
       "url": "https://www.amazon.in/dp/B09D8BQM7C",
       "image": "https://images-eu.ssl-images-amazon.com/images/I/61U3mvWM0XL._AC_UL1000_.jpg",
@@ -290,11 +298,6 @@
     {
       "title": "Top Wireless Earbuds Deals",
       "url": "https://www.amazon.in/s?k=wireless+earbuds",
-      "posted": false
-    },
-    {
-      "title": "Trending Smart Watches",
-      "url": "https://www.amazon.in/s?k=smartwatch",
       "posted": false
     }
   ]
