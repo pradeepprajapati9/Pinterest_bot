@@ -1,6 +1,30 @@
 {
   "deals": [
     {
+      "title": "OnePlus N6 | 4GB+128GB | Midnight Green | Segment's Biggest 8000mAh Battery | Se",
+      "url": "https://www.amazon.in/dp/B0H3LB843J",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/61f5ZCuSD6L._AC_UL1000_.jpg",
+      "posted": true,
+      "pinned": false,
+      "exported": true
+    },
+    {
+      "title": "OnePlus Nord CE6 Lite | 6GB+128GB | Vivid Mint | Segment's Fastest Dimensity 740",
+      "url": "https://www.amazon.in/dp/B0GVYGX4JX",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/61bbly9wcKL._AC_UL1000_.jpg",
+      "posted": false,
+      "pinned": false,
+      "exported": true
+    },
+    {
+      "title": "Dyazo Water Resistant Laptop Sleeve/Laptop case/laptop cover with Handle Compati",
+      "url": "https://www.amazon.in/dp/B09BFV96TS",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/81rRMwFG0+L._AC_UL1000_.jpg",
+      "posted": false,
+      "pinned": false,
+      "exported": true
+    },
+    {
       "title": "Simple Kind to Skin Refreshing Facial Wash | 100% Soap-Free Gentle Cleanser with",
       "url": "https://www.amazon.in/dp/B0CKF48RRR",
       "image": "https://images-eu.ssl-images-amazon.com/images/I/51FQerCM8yL._AC_UL1000_.jpg",
@@ -284,21 +308,6 @@
       "posted": false,
       "image": "https://images-eu.ssl-images-amazon.com/images/I/71C+XPnk0GL._AC_UL1000_.jpg",
       "exported": true
-    },
-    {
-      "title": "Red Tape Men Pull On Clogs",
-      "url": "https://www.amazon.in/dp/B0CSWPKXXK",
-      "posted": false
-    },
-    {
-      "title": "Today's Top Amazon Deals",
-      "url": "https://www.amazon.in/deals",
-      "posted": true
-    },
-    {
-      "title": "Top Wireless Earbuds Deals",
-      "url": "https://www.amazon.in/s?k=wireless+earbuds",
-      "posted": false
     }
   ]
 }
