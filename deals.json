@@ -1,6 +1,14 @@
 {
   "deals": [
     {
+      "title": "Frido Cloud Comfort Slippers for Women & Men | Available in 2 Options- Arch Supp",
+      "url": "https://www.amazon.in/dp/B0FR9LH4WQ",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/71C+XPnk0GL._AC_UL1000_.jpg",
+      "posted": true,
+      "pinned": false,
+      "exported": true
+    },
+    {
       "title": "OnePlus N6 | 4GB+128GB | Midnight Green | Segment's Biggest 8000mAh Battery | Se",
       "url": "https://www.amazon.in/dp/B0H3LB843J",
       "image": "https://images-eu.ssl-images-amazon.com/images/I/61f5ZCuSD6L._AC_UL1000_.jpg",
@@ -300,13 +308,6 @@
       "url": "https://www.amazon.in/dp/B074CZZQ8V",
       "posted": false,
       "image": "https://images-eu.ssl-images-amazon.com/images/I/61U3mvWM0XL._AC_UL1000_.jpg",
-      "exported": true
-    },
-    {
-      "title": "Frido Cloud Comfort Slippers for Women & Men | Available in 2 Options- Arch Supp",
-      "url": "https://www.amazon.in/dp/B0FR9GT4LM",
-      "posted": false,
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/71C+XPnk0GL._AC_UL1000_.jpg",
       "exported": true
     }
   ]
