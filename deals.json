@@ -1,6 +1,22 @@
 {
   "deals": [
     {
+      "title": "Lifelong PVC Hex Fixed Dumbbells Pack of 2 (2kg*2) Black Color for Home Gym Equi",
+      "url": "https://www.amazon.in/dp/B09W5LHL7G",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/51+b9IWWbjL._AC_UL1000_.jpg",
+      "posted": true,
+      "pinned": false,
+      "exported": true
+    },
+    {
+      "title": "Boldfit Pull Up Bar Door for Home Workout (200Kg) - Gym Equipment for Home Worko",
+      "url": "https://www.amazon.in/dp/B0CKBND48X",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/71pfl5uuwJL._AC_UL1000_.jpg",
+      "posted": false,
+      "pinned": false,
+      "exported": true
+    },
+    {
       "title": "Frido Cloud Comfort Slippers for Women & Men | Available in 2 Options- Arch Supp",
       "url": "https://www.amazon.in/dp/B0FR9LH4WQ",
       "image": "https://images-eu.ssl-images-amazon.com/images/I/71C+XPnk0GL._AC_UL1000_.jpg",
@@ -294,20 +310,6 @@
       "url": "https://www.amazon.in/dp/B000LQUA6M",
       "posted": true,
       "image": "https://images-eu.ssl-images-amazon.com/images/I/51wqZYWGr+L._AC_UL1000_.jpg",
-      "exported": true
-    },
-    {
-      "title": "Cetaphil Gentle Skin Hydrating Face Wash 118ml, Paraben Free, Sulphate-Free Gent",
-      "url": "https://www.amazon.in/dp/B01CCGW4OE",
-      "posted": false,
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/61Ti2uv6V3L._AC_UL1000_.jpg",
-      "exported": true
-    },
-    {
-      "title": "DOCTOR EXTRA SOFT Care Diabetic Orthopedic Pregnancy Flat Super Comfort Dr Flipf",
-      "url": "https://www.amazon.in/dp/B074CZZQ8V",
-      "posted": false,
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/61U3mvWM0XL._AC_UL1000_.jpg",
       "exported": true
     }
   ]
