@@ -1,6 +1,14 @@
 {
   "deals": [
     {
+      "title": "Simple Kind To Skin Refreshing Facial Wash 150 ml | 100% Soap-Free Facewash that",
+      "url": "https://www.amazon.in/dp/B000LQUA6M",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/51wqZYWGr+L._AC_UL1000_.jpg",
+      "posted": true,
+      "pinned": false,
+      "exported": true
+    },
+    {
       "title": "Samsung Original Type C to C Cable - 3.28 Feet (1 Meter), White",
       "url": "https://www.amazon.in/dp/B008FWZGSG",
       "image": "https://images-eu.ssl-images-amazon.com/images/I/51ga1DANA8L._AC_UL1000_.jpg",
@@ -304,13 +312,6 @@
       "url": "https://www.amazon.in/dp/B07PPBD529",
       "posted": true,
       "image": "https://images-eu.ssl-images-amazon.com/images/I/81zi4U9ZxgL._AC_UL1000_.jpg",
-      "exported": true
-    },
-    {
-      "title": "Ghar Soaps Sandalwood & Saffron Magic Soaps For Bath (300 Gms Pack Of 3) | Parab",
-      "url": "https://www.amazon.in/dp/B09S6M7JQJ",
-      "posted": true,
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/718F+0RgtfL._AC_UL1000_.jpg",
       "exported": true
     }
   ]
