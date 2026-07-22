@@ -1,6 +1,14 @@
 {
   "deals": [
     {
+      "title": "Samsung Original Type C to C Cable - 3.28 Feet (1 Meter), White",
+      "url": "https://www.amazon.in/dp/B008FWZGSG",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/51ga1DANA8L._AC_UL1000_.jpg",
+      "posted": true,
+      "pinned": false,
+      "exported": true
+    },
+    {
       "title": "Lifelong PVC Hex Fixed Dumbbells Pack of 2 (2kg*2) Black Color for Home Gym Equi",
       "url": "https://www.amazon.in/dp/B09W5LHL7G",
       "image": "https://images-eu.ssl-images-amazon.com/images/I/51+b9IWWbjL._AC_UL1000_.jpg",
@@ -303,13 +311,6 @@
       "url": "https://www.amazon.in/dp/B09S6M7JQJ",
       "posted": true,
       "image": "https://images-eu.ssl-images-amazon.com/images/I/718F+0RgtfL._AC_UL1000_.jpg",
-      "exported": true
-    },
-    {
-      "title": "Simple Kind To Skin Refreshing Facial Wash 150 ml | 100% Soap-Free Facewash that",
-      "url": "https://www.amazon.in/dp/B000LQUA6M",
-      "posted": true,
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/51wqZYWGr+L._AC_UL1000_.jpg",
       "exported": true
     }
   ]
