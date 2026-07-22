@@ -1,6 +1,14 @@
 {
   "deals": [
     {
+      "title": "Ghar Soaps Sandalwood & Saffron Magic Bar For Bath (300 Gms Pack Of 3) | Paraben",
+      "url": "https://www.amazon.in/dp/B09S6M7JQJ",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/71RVMzxM9GL._AC_UL1000_.jpg",
+      "posted": true,
+      "pinned": false,
+      "exported": true
+    },
+    {
       "title": "Simple Kind To Skin Refreshing Facial Wash 150 ml | 100% Soap-Free Facewash that",
       "url": "https://www.amazon.in/dp/B000LQUA6M",
       "image": "https://images-eu.ssl-images-amazon.com/images/I/51wqZYWGr+L._AC_UL1000_.jpg",
@@ -305,13 +313,6 @@
       "url": "https://www.amazon.in/dp/B0821PN8L4",
       "posted": true,
       "image": "https://images-eu.ssl-images-amazon.com/images/I/61fn1xtHO4L._AC_UL1000_.jpg",
-      "exported": true
-    },
-    {
-      "title": "LiMETRO STEEL Stainless Steel Foldable Cloth Dryer Stand Double Rack Cloth Stand",
-      "url": "https://www.amazon.in/dp/B07PPBD529",
-      "posted": true,
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/81zi4U9ZxgL._AC_UL1000_.jpg",
       "exported": true
     }
   ]
