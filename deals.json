@@ -1,6 +1,14 @@
 {
   "deals": [
     {
+      "title": "DOCTOR EXTRA SOFT Care Diabetic Orthopedic Pregnancy Flat Super Comfort Dr Flipf",
+      "url": "https://www.amazon.in/dp/B074CZZQ8V",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/71Ke9+T8eAL._AC_UL1000_.jpg",
+      "posted": true,
+      "pinned": false,
+      "exported": true
+    },
+    {
       "title": "Ghar Soaps Sandalwood & Saffron Magic Bar For Bath (300 Gms Pack Of 3) | Paraben",
       "url": "https://www.amazon.in/dp/B09S6M7JQJ",
       "image": "https://images-eu.ssl-images-amazon.com/images/I/71RVMzxM9GL._AC_UL1000_.jpg",
@@ -306,13 +314,6 @@
       "url": "https://www.amazon.in/dp/B07QP9PTZP",
       "posted": false,
       "image": "https://images-eu.ssl-images-amazon.com/images/I/415aawinNhL._AC_UL1000_.jpg",
-      "exported": true
-    },
-    {
-      "title": "Amazon Brand - Presto! Garbage Bags | Medium | 180 Count | 30 Bags X 6 Rolls | 1",
-      "url": "https://www.amazon.in/dp/B0821PN8L4",
-      "posted": false,
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/61fn1xtHO4L._AC_UL1000_.jpg",
       "exported": true
     }
   ]
