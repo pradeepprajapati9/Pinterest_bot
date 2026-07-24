@@ -1,6 +1,30 @@
 {
   "deals": [
     {
+      "title": "LPG cylinder booking",
+      "url": "https://www.amazon.in/dp/B07QP9PTZP",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/415aawinNhL._AC_UL1000_.jpg",
+      "posted": true,
+      "pinned": false,
+      "exported": true
+    },
+    {
+      "title": "Frido Cloud Comfort Slippers for Women & Men | Available in 2 Options- Arch Supp",
+      "url": "https://www.amazon.in/dp/B0FR9GT4LM",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/71C+XPnk0GL._AC_UL1000_.jpg",
+      "posted": false,
+      "pinned": false,
+      "exported": true
+    },
+    {
+      "title": "DOCTOR EXTRA SOFT Care Diabetic Orthopedic Pregnancy Flat Super Comfort Dr Flipf",
+      "url": "https://www.amazon.in/dp/B09D8CXJ2Q",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/71Ke9+T8eAL._AC_UL1000_.jpg",
+      "posted": false,
+      "pinned": false,
+      "exported": true
+    },
+    {
       "title": "Amazon Brand - Presto! Garbage Bags | Medium | 180 Count | 30 Bags X 6 Rolls | 1",
       "url": "https://www.amazon.in/dp/B0821PN8L4",
       "image": "https://images-eu.ssl-images-amazon.com/images/I/61fn1xtHO4L._AC_UL1000_.jpg",
@@ -294,27 +318,6 @@
       "image": "https://images-eu.ssl-images-amazon.com/images/I/51yfw2JIxwL._AC_UL1000_.jpg",
       "posted": false,
       "pinned": false,
-      "exported": true
-    },
-    {
-      "title": "OnePlus N6 | 6GB+128GB | Midnight Green | Segment's Biggest 8000mAh Battery | Se",
-      "url": "https://www.amazon.in/dp/B0H3LKPC2K",
-      "posted": false,
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/61f5ZCuSD6L._AC_UL1000_.jpg",
-      "exported": true
-    },
-    {
-      "title": "OnePlus Nord Buds 3r TWS Earbuds up to 54 Hours Playback, 2-mic Clear Calls, 3D ",
-      "url": "https://www.amazon.in/dp/B0FMDL81GS",
-      "posted": false,
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/51nBTTG3hNL._AC_UL1000_.jpg",
-      "exported": true
-    },
-    {
-      "title": "Samsung Galaxy S25 Ultra 5G AI Smartphone (Titanium Silverblue, 12GB RAM, 256GB ",
-      "url": "https://www.amazon.in/dp/B0DSKNKCYX",
-      "posted": false,
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/71tl8pu4fKL._AC_UL1000_.jpg",
       "exported": true
     }
   ]
