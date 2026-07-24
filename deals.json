@@ -1,6 +1,30 @@
 {
   "deals": [
     {
+      "title": "OnePlus N6 | 6GB+128GB | Midnight Green | Segment's Biggest 8000mAh Battery | Se",
+      "url": "https://www.amazon.in/dp/B0H3LKPC2K",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/61f5ZCuSD6L._AC_UL1000_.jpg",
+      "posted": true,
+      "pinned": false,
+      "exported": true
+    },
+    {
+      "title": "realme NARZO 100x 5G (Midnight Black,6GB+128GB) | Biggest 8000mAh Battery | 45W ",
+      "url": "https://www.amazon.in/dp/B0H33KMYHX",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/81O+IdkTE3L._AC_UL1000_.jpg",
+      "posted": false,
+      "pinned": false,
+      "exported": true
+    },
+    {
+      "title": "OnePlus Nord Buds 3r TWS Earbuds up to 54 Hours Playback, 2-mic Clear Calls, 3D ",
+      "url": "https://www.amazon.in/dp/B0FMDL81GS",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/51nBTTG3hNL._AC_UL1000_.jpg",
+      "posted": false,
+      "pinned": false,
+      "exported": true
+    },
+    {
       "title": "LPG cylinder booking",
       "url": "https://www.amazon.in/dp/B07QP9PTZP",
       "image": "https://images-eu.ssl-images-amazon.com/images/I/415aawinNhL._AC_UL1000_.jpg",
@@ -292,30 +316,6 @@
       "title": "Red Tape Men Pull On Clogs",
       "url": "https://www.amazon.in/dp/B0CSWN4TCK",
       "image": "https://images-eu.ssl-images-amazon.com/images/I/61RMzIzWHEL._AC_UL1000_.jpg",
-      "posted": false,
-      "pinned": false,
-      "exported": true
-    },
-    {
-      "title": "Ambrane Unbreakable 3A Fast Charging 1.5m Braided Type C Cable for Smartphones, ",
-      "url": "https://www.amazon.in/dp/B098NS6PVG",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/61W8xeZTwxL._AC_UL1000_.jpg",
-      "posted": false,
-      "pinned": true,
-      "exported": true
-    },
-    {
-      "title": "Safari Omega spacious/large laptop backpack with Raincover, college bag, travel ",
-      "url": "https://www.amazon.in/dp/B097JJ2CK6",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/71maWXZscfL._AC_UL1000_.jpg",
-      "posted": false,
-      "pinned": true,
-      "exported": true
-    },
-    {
-      "title": "American Tourister Valex | 28L Backpack | 17\" Laptop Bag | 2 Compartments | Coll",
-      "url": "https://www.amazon.in/dp/B0BTD4S4XF",
-      "image": "https://images-eu.ssl-images-amazon.com/images/I/51yfw2JIxwL._AC_UL1000_.jpg",
       "posted": false,
       "pinned": false,
       "exported": true
